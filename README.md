@@ -1,0 +1,3 @@
+# KNIT-MEAN
+
+Sprawdzajka:
