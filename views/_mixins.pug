@@ -1,3 +1,4 @@
 mixin eli(name)
   li.name
-    a(href="http://www.#{name}.com")=name
+    //- a(href="http://www.#{name}.com")=name This syntax is no longer supported. :)
+    a(href="http://www."+ name +".com")=name
