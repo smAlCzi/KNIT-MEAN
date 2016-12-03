@@ -64,7 +64,7 @@ namespace Route {
     Potem jeszcze używał tych trollkont do prześladowania niedawnych kolegów od łódki.Jak któryś z nich zakładał jakiś temat to ojciec się tam wpie** alał na trollkoncie i np.pisał, ze ch* jowe ryby łapie i widać, że nie umie łowić xD
     Z tych samych trollkont udzielał się w swoich tematach i jak na przykład wrzucał zdjęcia złapanych przez siebie ryb to sam sobie pisał
     > Noooo gratuluję okazu! Widać, że doświadczony łowca!
-    a potem się z tego cieszył i kazał oglądać mi i starej jak go chwalą na forum.`
+    a potem się z tego cieszył i kazał oglądać mi i starej jak go chwalą na forum.`;
 
     router.get("/", function(req, res) {
         res.render("index", { title: "MEAN course", apps: apps, memixx: memixx } );
